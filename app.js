@@ -2,6 +2,12 @@
 var websocket = require("websocket").server;
 var http = require("http");
 
+const {createServer} = require('http')
+
+const server = createServer(() => {})
+
+server.listen(3000)
+
 
 // local variables:
 var username = "You";
