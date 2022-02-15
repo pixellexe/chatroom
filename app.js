@@ -2,20 +2,17 @@
 var websocket = require("websocket").server;
 var http = require("http");
 
-const {createServer} = require('http')
-
-const server = createServer(() => {})
-
-server.listen(3000)
-
 
 // local variables:
 var username = "You";
-var port = 9600;
+var port = 3000;
 
+const {createServer} = require('http');
 
 // create server, and have listen on port 9600:
 var server = http.createServer();
+
+server.listen(3000);
 
 server.listen(port, function() {
     console.log("Server listening on port " + port);
