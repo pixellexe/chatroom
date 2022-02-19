@@ -1,4 +1,4 @@
-var ws_uri = "ws://localhost:443";
+var ws_uri = "ws://chatroom-five-omega.vercel.app";
 var websocket = new WebSocket (ws_uri);
 
 // on websocket open:
